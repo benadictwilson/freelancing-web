@@ -115,7 +115,7 @@
     .navbar-inner {
       display: flex;
       align-items: center;
-      justify-content: space-between;
+     justify-content: space-between;
       height: 64px;
     }
 
@@ -124,6 +124,8 @@
       font-weight: 800;
       letter-spacing: -0.04em;
       font-family: 'Orbitron', sans-serif;
+       flex-shrink: 0;padding: 0 24px;
+       min-width: fit-content;
       color: #fff;
     }
 
@@ -2706,7 +2708,7 @@
 
   <!-- ===== NAVBAR ===== -->
   <nav class="navbar" id="navbar">
-    <div class="container navbar-inner" style="justify-content:center;position:relative;">
+    <div class="container navbar-inner">
       <a href="#" class="nav-logo">Benzo Tech</a>
       <div class="nav-links">
         <a href="#services">Services</a>
